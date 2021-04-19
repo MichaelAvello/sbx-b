@@ -159,6 +159,10 @@
     -webkit-animation-duration: 1s;
     visibility: visible;
   }
+  .subdiv-bottom {
+    position: absolute;
+	bottom: 0px;
+  }
   @keyframes slide {
     0% {
       opacity: 0;
@@ -223,11 +227,13 @@
   </div>
 </nav>
 
-<!-- Heading section -->
+<!-- Heading section with Google Translate bar -->
 <div class="jumbotron text-center">
   <h1>Sunbiz Modernization News</h1>
   <p>Updates to Sunbiz are on the horizon</p>
-  <div id="google_translate_element" style=background-color:#e2f1ff;></div>
+  <div class="subdiv-bottom">
+    <div id="google_translate_element" style=background-color:#e2f1ff;></div>
+  </div>
 </div>
 
 <!-- Google Translate bar
