@@ -170,6 +170,17 @@
     visibility: visible;
   }
 
+  /* modern clearfix */
+  .cf:before,
+  .cf:after {
+    content:"";
+    display:table;
+    line-height:0;
+  }
+  .cf:after {
+    clear:both;
+  }
+
   @keyframes slide {
     0% {
       opacity: 0;
@@ -209,7 +220,7 @@
   
 </head>
 
-<body id="home" data-spy="scroll" data-target=".navbar">
+<body id="home" class="cf" data-spy="scroll" data-target=".navbar">
 
 <!-- navbar -->
 <nav class="navbar navbar-default navbar-fixed-top">
@@ -251,7 +262,7 @@
   <h2>Have to start somewhere...</h2>
 </div>
 
-<footer class="footer">
+<div class="footer cf">
     <div class="row">
       <div class="col-md-8">
         <p>
@@ -278,7 +289,7 @@
         </a>
     </div>
     </div>
-</footer>
+</div>
 
 <!-- Start Google Translate scripts -->
 <script type="text/javascript">
