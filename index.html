@@ -159,6 +159,20 @@
     -webkit-animation-duration: 1s;
     visibility: visible;
   }
+  .translation-bar {
+	text-align: center;
+	background-color: #eee;
+	padding: 8px 1em
+  }
+
+  .translation-bar .instruction {
+	padding-right: .5em
+  }
+
+  .translation-bar * {
+	margin: 0;
+	display: inline-block
+  }
   @keyframes slide {
     0% {
       opacity: 0;
@@ -224,7 +238,7 @@
 </nav>
 
 <!-- Google Translate -->
-<div class="container-fluid bg-grey text-center">
+<div class="translation-bar">
   <h1>Sunbiz Modernization News</h1>
   <p>Updates to Sunbiz are on the horizon</p>
   <div id="google_translate_element"></div>
