@@ -267,3 +267,13 @@ button.bg-light:focus,
 button.bg-light:hover {
 	background-color: #dae0e5!important
 }
+
+.translation-bar {
+  text-align:center;
+  background-color:#e2f1ff;
+  padding:8px 1em;
+  }
+	
+.instruction {
+  padding-right:.5em
+  }
