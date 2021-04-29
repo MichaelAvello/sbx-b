@@ -162,7 +162,8 @@
 .card button {
 	font-size: 15px;
     line-height: 1.375em;
-	padding-left: 30px;
+	background-color: blue;
+	color: #fff;
 }
 
 @media (min-width:576px) {
