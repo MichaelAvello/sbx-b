@@ -157,6 +157,12 @@
 	padding-left: 30px;
 }
 
+.card button {
+	font-size: 15px;
+    line-height: 1.375em;
+	padding-left: 30px;
+}
+
 @media (min-width:576px) {
 	.card-deck {
 		display: -ms-flexbox;
