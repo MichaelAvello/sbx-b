@@ -141,6 +141,10 @@
 
 .card-deck .card {
 	margin-bottom: 15px
+	}
+	
+.card h4, p {
+	padding-left: 30px;
 }
 
 @media (min-width:576px) {
