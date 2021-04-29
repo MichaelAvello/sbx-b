@@ -149,12 +149,14 @@
     color: #00386b;
     font-weight: 500;
 	padding-left: 30px;
+	padding-bottom: 15px;
 }
 
 .card p {
 	font-size: 15px;
     line-height: 1.375em;
 	padding-left: 30px;
+	padding-bottom: 15px;
 }
 
 .card button {
