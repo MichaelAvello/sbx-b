@@ -19,6 +19,7 @@
 	background-clip: border-box;
 	border: 1px solid rgba(0, 0, 0, .125);
 	border-radius: .25rem
+	padding-left: 30px;
 }
 
 .card>hr {
@@ -148,14 +149,12 @@
     line-height: 1.375em;
     color: #00386b;
     font-weight: 500;
-	padding-left: 30px;
 	padding-bottom: 15px;
 }
 
 .card p {
 	font-size: 15px;
     line-height: 1.375em;
-	padding-left: 30px;
 	padding-bottom: 15px;
 }
 
