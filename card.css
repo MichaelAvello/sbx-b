@@ -152,6 +152,14 @@
 	padding-bottom: 15px;
 }
 
+.card h5 {
+	font-size: 17px;
+    line-height: 1.375em;
+    opacity: 0.60;
+    font-weight: 500;
+	padding-bottom: 15px;
+}
+
 .card p {
 	font-size: 15px;
     line-height: 1.375em;
