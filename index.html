@@ -119,6 +119,11 @@
     font-style: normal;
   }
   
+  .padding-16 {
+	padding-top: 16px!important;
+	padding-bottom: 16px!important
+  }
+  
   .panel {
     border: 1px solid #f4511e; 
     border-radius:0 !important;
@@ -248,7 +253,7 @@
     }
   }
  
- @media screen and (max-width: 480px) {
+  @media screen and (max-width: 480px) {
     .logo {
       font-size: 150px;
     }
@@ -382,9 +387,11 @@
             -->
 			<div class="card-body">
               <h4>Previous Posts</h4>
+			  
+			  <!--
 			  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-			  <div class="d-flex justify-content-between align-items-center">
-              </div>
+			  <div class="d-flex justify-content-between align-items-center"></div>
+			  -->
             </div>
           </div><hr><br><!-- END Previous Posts List -->
 			  
@@ -414,7 +421,7 @@
   </div><br>
   
   <div class="row">
-    <ul class="nav nav-tabs">
+    <ul class="nav nav-tabs nav-justified">
       <li class="active"><a data-toggle="tab" href="#menu1">Data Downloads</a></li>
       <li><a data-toggle="tab" href="#menu2">Business Filings</a></li>
       <li><a data-toggle="tab" href="#menu3">Trademark Filings</a></li>
