@@ -96,6 +96,19 @@
     background-color: #f6f6f6 !important;
   }
   
+  /* Icon when the collapsible content is shown */
+  .btn:after {
+    font-family: "Glyphicons Halflings";
+    content: "\e114";
+    float: right;
+    margin-left: 15px;
+  }
+  
+  /* Icon when the collapsible content is hidden */
+  .btn.collapsed:after {
+    content: "\e080";
+  }
+  
   .logo-small {
     color: #f4511e;
     font-size: 50px;
@@ -372,7 +385,7 @@
                   <h4>User Accounts Will Be Required for Filing Annual Reports</h4>
 				  <h5>April 30, 2021</h5>
 				  <p class="card-text">With the current Sunbiz.org system, users are not required to provide a username and password for business filings and some data downloads. The modernized Sunbiz site, however, will require users to create individual user accounts, each with a unique username and strong password for secure authentication. User accounts will also be required for filing an Annual Report. Also, users that want to file an Annual Report that makes changes to their business entity will be required to have filing authority.  Please click the button below for more information.</p>
-				  <a href="./sbx-files/Data_Download_Update_Business_Entities.pdf" target="_blank" rel="noopener noreferrer"><button type="button" class="btn btn-outline-secondary">Download PDF &nbsp;&nbsp;<i class="fa fa-angle-double-right"></i></button></a>
+				  <a href="./sbx-files/Data_Download_Update_Business_Entities.pdf" target="_blank" rel="noopener noreferrer"><button type="button" class="btn btn-outline-secondary">Download PDF</button></a>
                 </div>
               </div><hr>
 		      	  
